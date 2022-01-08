@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'android';
+    src: url('./fontes/IDroid.otf')format('opentype');
+    font-weight: 'normal';
+  
+}
+
+:root{
+
+
+    --cor0:#232426;
+    --cor1:#586173;
+    --cor2:#727273;
+    --cor3:#989999;
+    --cor4:#BDBDBF;
+    
+
+    
+
+    --fonte-android: 'android', 'cursive';
+    --fonte-distaque: 'Bebas Neue', 'cursive';
+    --tonte-padrao: 'arial,helvetica,verdana,sans-serif';
+        /*
+    Quando for por seletor asteristico para nao 
+    ter margem em nenhum elemento nao pode colocar 
+    dentro de ROOT tem que ser fora de ROOT
+    */
+      
+
+        }
+
+        *{
+         margin: 0px;
+         margin: 0px;
+        }
+
+        
+            
+    
+
+        body{
+        background-color: var(--cor1);
+         }
+        header> h1{
+        background-color: var(--cor0);
+        color: var(--cor4);
+        font-family: var(--fonte-distaque);
+        text-align: center;
+        }
+        header >p
+        {
+        color: rgb(189, 186, 186);
+        text-align: center;
+
+        }
+
+        nav{
+            background-color: black;
+            padding: 10px;
+            transition-duration: none;
+        
+            
+        }
+        nav>a{
+            color: white;
+            padding: 10px;
+            text-decoration:none;
+        }
+        nav > a:hover{
+            background-color: var(--cor2);
+        }
+
+         main h1{
+        font-family: var(--fonte-android);
+        border-width: 10px;
+        border-color: var(--cor2);
+        color: rgb(43, 42, 42);
+        }
+        main h2{
+        font-family: var(--fonte-android);
+        border-width: 10px;
+        border-color: var(--cor2);
+        color: rgb(27, 27, 27);
+        
+        
+
+        }
+        main{
+         margin: auto;
+         background-color: rgb(175, 172, 172);
+         max-width: 1000px;
+         min-width: 320px
+
+            
+          
+        }
+        main img{
+            width: 100%;
+            
+        }
+        main img.pequena{
+            max-width: 300px;
+            margin: auto;
+            display: block;
+        }
+         aside{
+            background-color: rgba(4, 53, 18, 0.439);
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+
+        
+        aside h3{
+            
+            background-color: rgb(169, 189, 169);
+            margin: -10px -10px 0px -10px;
+            border-radius: 10px 10px 0px 0px;
+            
+        }
+        ul{
+            list-style-type: '\00a0\2714';
+            columns: 2;
+
+        }
+        
+        main p{
+            margin: 15px 0px;
+            text-align: justify;
+            text-indent: 30px;
+            line-height: 1.5em;
+            font-size: 1em;
+            
+        }
+        main strong{
+            font-weight: bold;
+            color:yellow
+            
+        }
+       main a:hover{
+           text-decoration: underline;
+           color: chartreuse
+       }
+
+        
+        footer{
+            background-color: rgb(6, 63, 27);
+            color: white;
+            text-align: center;
+
+        }
+        footer >a{
+            text-decoration: none;
+            color: rgb(248, 16, 16);
+            font-weight: bold;
+            text-decoration: underline;
+            
+        }
+        footer a:hover{
+            color: #BDBDBF
+        }
+        
+
+
+
+    
+  
+
