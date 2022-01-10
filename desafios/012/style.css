@@ -26,7 +26,7 @@
 }
     html, body {
        
-    background-color: darkgray;
+    background-color: rgb(56, 53, 53);
     min-height: 100%;
    
 }
@@ -47,6 +47,7 @@ header h1 {
 header> p{
     padding-bottom: 50px;
 
+
 }
 a{  
     text-decoration: none;
@@ -64,18 +65,34 @@ section{
     padding: 30px;
     font-size: 3vw;
 }
+section> p{
+    padding-bottom: 2em;
+} 
 section.normal{
     background-color: white;
     color: black;
 
 }
 section.imagem{
-    background-color: rgb(102, 100, 100);
+    background-color: rgba(109, 104, 104, 0.171);
+    color: rgb(236, 228, 228);
+    
+    
 
 }
 section.imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(1, 19, 4, 0.007);
+}
+section#img01{
+    background-image: url(background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+section#img02{
+    background-image: url(background002.jpg);
+    background-size: cover;
 }
 footer{
     padding: 10px;
