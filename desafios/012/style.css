@@ -11,6 +11,7 @@
     --fonte1:   Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Sriracha', 'cursive';
     --fonte3:  'Passion One', 'cursive';
+    
 
 
 
@@ -26,13 +27,13 @@
 }
     html, body {
        
-    background-color: rgb(56, 53, 53);
+    background-color: rgb(31, 4, 4);
     min-height: 100%;
    
 }
     header{
     background-color: rgb(22, 21, 21);
-    color: white;
+    color: rgb(243, 239, 239);
     text-align: center;
 }
 header h1 {
@@ -51,7 +52,7 @@ header> p{
 }
 a{  
     text-decoration: none;
-    color:white;
+    color:rgb(235, 228, 228);
     font-weight: bolder;
 }
 a:hover{
@@ -67,22 +68,31 @@ section{
 }
 section> p{
     padding-bottom: 2em;
+    
 } 
 section.normal{
-    background-color: white;
     color: black;
+    background-color: white
+    
 
 }
 section.imagem{
-    background-color: rgba(109, 104, 104, 0.171);
-    color: rgb(236, 228, 228);
+    background-color: rgb(24, 23, 23);
+    color: rgb(247, 235, 235);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
+   
+    
     
     
 
 }
 section.imagem > p{
+    display: inline-block;
     width: 400px;
-    background-color: rgba(1, 19, 4, 0.007);
+    background-color: rgba(1, 19, 4, 0.322);
+    padding: 5px;
+    text-shadow: 1px, 1px, 0px black;
 }
 section#img01{
     background-image: url(background001.jpg);
@@ -93,6 +103,8 @@ section#img01{
 section#img02{
     background-image: url(background002.jpg);
     background-size: cover;
+    
+
 }
 footer{
     padding: 10px;
