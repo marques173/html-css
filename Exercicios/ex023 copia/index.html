@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title><STYle>
+        body{
+            background-color: burlywood;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        td{
+            border: 2px solid black;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+        }
+        .nun{
+            color: blue;
+        }
+    </STYle>
+</head>
+<body>
+    
+
+    <table>
+
+        <caption>Minha Tabela</caption>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+            
+            
+        </tr>
+        <tr>
+            <td rowspan="5">C</td>
+            <td class="nun">D</td>
+            <td class="nun">E</td>
+            <td class="nun">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+            
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+           
+        </tr>
+    </table>
+</body>
+</html>
