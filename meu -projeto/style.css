@@ -19,10 +19,11 @@
 
 }
 *{
-    margin: 0px;
+    margin: -10px;
     padding: 0px;
-    
+    width: 100%;
 }
+
 
 
 body{
@@ -33,7 +34,7 @@ body{
 
 main{
     background-color: white;
-    min-width:400px;
+    min-width:320px;
     max-width:1000px;
     margin: auto;
     border-radius: 20px;   
@@ -71,15 +72,15 @@ header h3 a{
 
 h1{
     color: whitesmoke;
-    font-family: var(--fonte-android);
+    
     font-size: 40pt;
     padding: 15px;
 }
 h2{
-    font-family: var(--fonte-destaque);
+    
     font-size: 2em;
     color: var(--cor1);
-    padding: 20px;
+    
     
 }
 
